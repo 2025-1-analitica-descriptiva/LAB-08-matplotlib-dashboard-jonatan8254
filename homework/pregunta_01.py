@@ -45,7 +45,7 @@ import matplotlib.pyplot as plt
 
 def load_data():
     # Se carga el archivo CSV desde la carpeta "data"
-    return pd.read_csv("files\input\shipping-data.csv")
+    return pd.read_csv("data/shipping-data.csv")
 
 def plot_warehouse_block(df):
     plt.figure(figsize=(6, 4))
